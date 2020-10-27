@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Helvetica;
+            background: #F0F2F5;
+        }
+        .form-group{
+            background: white;
+            padding: 20px;
+            width: 340px;
+        }
+        .form-data{
+            margin-bottom: 10px;
+        }
+        .form-data input{
+            width: 100%;
+            padding: 10px;
+            border: #ccc solid 1px;
+            border-radius: 5px;
+        }
+        /* Login Button */
+        .login{
+            width: 100%;
+            padding: 10px;
+            background: #1877F2;
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
+        /* Forgotten Password */
+        a.fpass{
+            display: block;
+            text-align: center;
+            color:  #1877F2;
+            font-size: 14px;
+        }
+        hr{
+            color: #ccc;
+        }
+        /* Create New Account */
+        .newacc{
+            background: #42B72A;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+            display: block;
+            margin: auto;
+        }
+
+        /* Content */
+        .content{
+            float: left;
+            margin: auto;
+        }
+        .content h1{
+            color:  #1877F2;
+        }
+        /* Form Group */
+        .form-group{
+            float: right;
+        }
+        /* Container */
+        .container{
+            max-width: 700px;
+            margin: auto;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>facebook</h1>
+            <p>Facebook helps you connect and share <br>
+            with the people in your life.</p>
+        </div>
+        <div class="form-group">
+            <div class="form-data"><input type="text" placeholder="Email address or phone number">
+            </div>
+            <div class="form-data">
+                <input type="text" placeholder="Password">
+            </div>
+            <div class="form-data">
+                <button class="login">Log In</button>
+            </div>
+            <div class="form-data">
+                <a href="#" class="fpass">Forgotten password?</a>
+            </div>
+            <div class="form-data">
+                <hr>
+            </div>
+            <div class="form-data">
+                <button class="newacc">Create New Account</button>
+            </div>     
+        </div>
+    </div>
+</body>
+</html>
